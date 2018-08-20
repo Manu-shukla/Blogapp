@@ -1,0 +1,21 @@
+<% include ./partials/header %>
+<div class="ui main text container segment">
+    <div class="ui huge header">Fresh Blog Moron :)</div>
+<form class="ui form" action="/blogs" method="POST">
+    <div class="field">
+        <label><i class="Sitemap icon"></i>Crown it (Title) :- </label>
+<input type="text" name="blog[title]" placeholder="Label the blog Idiot ;)">
+</div>
+<div class="field">
+    <label><i class="Image icon"></i>Image URL :- </label>
+<input type="text" name="blog[image]" placeholder="Why Starring, put the imagen url bluffy!">
+</div>
+<div class="field">
+    <label><i class="Book icon"></i>Alluring Content :- </label>
+<textarea name="blog[body]" placeholder="It's not your father's area, so write correctly!!!"></textarea>
+</div>
+<div class="field">
+<input type="submit" class="ui inverted red button" value="Yield it to heaven!">
+</form>
+</div>
+<% include ./partials/footer %>
